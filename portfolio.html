@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mikmar Lyal Singh Tamang - Full Stack Developer">
+  <title>Mikmar Tamang — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Mikmar<span>.</span></a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION (Split Layout) -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+
+      <div class="hero-text">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">Mikmar Lyal Singh Tamang</h1>
+        <p class="hero-title">Full Stack Developer</p>
+        <p class="hero-desc">
+          I build fast, responsive, and user-friendly web applications
+          using modern JavaScript technologies — from React frontends
+          to Node.js backends and MongoDB/MySQL databases.
+        </p>
+        <p class="hero-location">📍 Kathmandu, Nepal</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#projects" class="btn btn-secondary">View Projects</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Mikmar-Tamang" target="_blank">GitHub</a>
+          <a href="mailto:ronishtamang631@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-glow"></div>
+        <img src="./image/pp.png" alt="Mikmar Lyal Singh Tamang" class="profile-pic">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <p>
+        I am a passionate Full Stack Developer currently pursuing a
+        Bachelor in Information Technology (BIT) at Model Institute
+        of Technology. I specialize in the MERN stack and relational
+        databases, with hands-on experience building real-world
+        applications including a food delivery platform and a college
+        management system. I focus on writing clean, maintainable
+        code and delivering responsive user experiences across all
+        devices.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section section-alt">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3 & Tailwind CSS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React.js</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Backend</h3>
+        <ul>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>REST APIs</li>
+          <li>JWT & Google OAuth</li>
+          <li>Bcrypt</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Database</h3>
+        <ul>
+          <li>MongoDB & Mongoose</li>
+          <li>MySQL</li>
+          <li>Sequelize</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools & Deployment</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>Cloudinary</li>
+          <li>Postman</li>
+          <li>Vercel & Render</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>Food Delivery Application</h3>
+        <p>
+          A full-featured food delivery platform with user authentication,
+          restaurant browsing, cart functionality, and order management.
+          Uses Cloudinary for image uploads and Tailwind CSS for responsive design.
+        </p>
+        <br>
+        <h4 class="project-tech">React · Node.js · MongoDB · Tailwind</h4>
+        <a href="https://food-delivery-sand-one.vercel.app/" target="_blank" class="project-link">Live Demo →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>College Management System</h3>
+        <p>
+          A comprehensive college management platform with dual-portal
+          administration (Super Admin + College Admin), JWT authentication,
+          MySQL + Sequelize relational database, and type-safe React + TypeScript
+          dashboards.
+        </p>
+        <h4 class="project-tech">React · TypeScript · Node.js · MySQL · Sequelize</h4>
+        <a href="https://college-management-system-eight-umber.vercel.app/" target="_blank" class="project-link">Live Demo →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section section-alt">
+    <h2 class="section-title">Education</h2>
+    <div class="education-grid">
+
+      <div class="education-card">
+        <h3>Bachelor in Information Technology (BIT)</h3>
+        <p class="edu-school">Model Institute of Technology | International American University</p>
+        <p class="edu-status">Current Student</p>
+      </div>
+
+      <div class="education-card">
+        <h3>Higher Secondary Education (+2)</h3>
+        <p class="edu-school">Reed Model College, Kathmandu</p>
+        <p class="edu-status">Graduated: 2024</p>
+        <p class="edu-note">Specialization: Management with Computer Science</p>
+      </div>
+
+      <div class="education-card">
+        <h3>MERN Stack Full Stack Training</h3>
+        <p class="edu-school">IT Training Nepal Pvt. Ltd.</p>
+        <p class="edu-status">Completed: March 2026</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-content">
+      <p>Feel free to reach out for collaborations or opportunities.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:ronishtamang631@gmail.com">ronishtamang631@gmail.com</a></li>
+        <li><a href="tel:+9779823869631">+977 9823869631</a></li>
+        <li>📍 Kathmandu, Nepal</li>
+        <li><a href="https://github.com/Mikmar-Tamang" target="_blank">github.com/Mikmar-Tamang</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Mikmar Lyal Singh Tamang. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
